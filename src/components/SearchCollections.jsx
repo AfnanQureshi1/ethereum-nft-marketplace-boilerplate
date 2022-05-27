@@ -20,7 +20,7 @@ function SearchCollections({setInputValue}){
             showSearch
             style={{width: "1000px",
                     marginLeft: "20px" }}
-            placeholder="Find a Collection"
+            placeholder="Find a Project"
             optionFilterProp="children"
             onChange={onChange}
         >   

@@ -100,7 +100,7 @@ function NFTBalance() {
     let secondsToGo = 5;
     const modal = Modal.success({
       title: "Success!",
-      content: `Your NFT was listed on the marketplace`,
+      content: `Your File was listed on the marketplace`,
     });
     setTimeout(() => {
       modal.destroy();
@@ -111,7 +111,7 @@ function NFTBalance() {
     let secondsToGo = 5;
     const modal = Modal.success({
       title: "Success!",
-      content: `Approval is now set, you may list your NFT`,
+      content: `Approval is now set, you may list your File`,
     });
     setTimeout(() => {
       modal.destroy();
@@ -122,7 +122,7 @@ function NFTBalance() {
     let secondsToGo = 5;
     const modal = Modal.error({
       title: "Error!",
-      content: `There was a problem listing your NFT`,
+      content: `There was a problem listing your File`,
     });
     setTimeout(() => {
       modal.destroy();
@@ -177,7 +177,7 @@ function NFTBalance() {
             <Card
               hoverable
               actions={[
-                <Tooltip title="View On Blockexplorer">
+                <Tooltip title="Blockchain Proof">
                   <FileSearchOutlined
                     onClick={() =>
                       window.open(
@@ -187,7 +187,7 @@ function NFTBalance() {
                     }
                   />
                 </Tooltip>,
-                <Tooltip title="List NFT for sale">
+                <Tooltip title="List File for sale">
                   <ShoppingCartOutlined onClick={() => handleSellClick(nft)} />
                 </Tooltip>,
               ]}

@@ -2,6 +2,12 @@ export const networkCollections = {
   "0x13881": [
     //Add Your Collections here
     {
+      image :"https://media.istockphoto.com/photos/apartment-buildings-picture-id645199404?k=20&m=645199404&s=612x612&w=0&h=wPZssGsmmpt5Tkl9isufeLgJMWSX9GFkAai3j47j584=", 
+      name : "5 Marla Files - Housing Society",
+      addrs : "0xfaB1B24D8F10a0d8B10B78c6f085087628F4C83d",
+    },
+    
+    {
       image:
         "https://lh3.googleusercontent.com/BWCni9INm--eqCK800BbRkL10zGyflxfPwTHt4XphMSWG3XZvPx1JyGdfU9vSor8K046DJg-Q8Y4ioUlWHiCZqgR_L00w4vcbA-w=s0",
       name: "Test Mages",
@@ -14,7 +20,13 @@ export const networkCollections = {
       addrs: "0xCA34404dD8Bd6537BE76F3A51B379F8949bD7973",
     },
   ],
-
+  "0x4":[
+    {
+      image : "https://media.gettyimages.com/vectors/home-flat-icon-pixel-perfect-for-mobile-and-web-vector-id1145840259?s=612x612",
+      name : "5 MARLA Society Files" ,
+      addrs : "0xb847FAc5B7330d4AC5Ed8fC85Ba25B81D626b3bF"
+    },
+  ],
   "0x1": [
     {
       image:

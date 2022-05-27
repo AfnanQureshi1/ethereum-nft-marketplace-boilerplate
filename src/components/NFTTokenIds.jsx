@@ -128,7 +128,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
     let secondsToGo = 5;
     const modal = Modal.success({
       title: "Success!",
-      content: `You have purchased this NFT`,
+      content: `You have purchased this file`,
     });
     setTimeout(() => {
       modal.destroy();
@@ -139,7 +139,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
     let secondsToGo = 5;
     const modal = Modal.error({
       title: "Error!",
-      content: `There was a problem when purchasing this NFT`,
+      content: `There was a problem when purchasing this file`,
     });
     setTimeout(() => {
       modal.destroy();
@@ -223,7 +223,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
               <Card
                 hoverable
                 actions={[
-                  <Tooltip title="View Collection">
+                  <Tooltip title="View Society Project">
                     <RightCircleOutlined
                       onClick={() => setInputValue(nft?.addrs)}
                     />
@@ -250,7 +250,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
               <Card
                 hoverable
                 actions={[
-                  <Tooltip title="View On Blockexplorer">
+                  <Tooltip title="View Blockchain Proof">
                     <FileSearchOutlined
                       onClick={() =>
                         window.open(
@@ -260,7 +260,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
                       }
                     />
                   </Tooltip>,
-                  <Tooltip title="Buy NFT">
+                  <Tooltip title="Buy File">
                     <ShoppingCartOutlined onClick={() => handleBuyClick(nft)} />
                   </Tooltip>,
                 ]}
@@ -333,7 +333,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
               }}
             />
             <Alert
-              message="This NFT is currently not for sale"
+              message="This File is currently not for sale"
               type="warning"
             />
           </Modal>
